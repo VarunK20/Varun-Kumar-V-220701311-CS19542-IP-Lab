@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: auto;
+}
+
+.head-body-1 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 30%;
+    padding: 30px 30px 10px 10px;
+}
+
+.head {
+    background-color: bisque;
+    padding: 10px;
+    width: 70%;
+}
+
+.head-body-1 img{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(152, 136, 115);
+    border-radius: 100px;
+    margin-bottom: 15px;
+    border: 3px blueviolet solid;
+}
+
+.head-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.head-body p {
+    font-style: italic;
+    font-size: large;
+    font-weight: 400;
+}
+
+.para {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para ul {
+    font-size: large;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.head-body h1 {
+    font-style: oblique;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.para h1{
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.para h3 {
+    font-style: normal;
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.body {
+    margin-left: 50px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.body p{
+    font-size: larger;
+}
+
+.body h1{
+    padding-bottom: 15px;
+}
+
+.body ul {
+    font-size: larger;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.body ul li{
+    margin-bottom: 15px;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.education-table h1{
+    font-style: italic;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.education-table table{
+    margin-left: 50px;
+    font-style: italic;
+}
+
+.education-table th, .education-table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+    font-style: italic;
+}
+
+.education-table th {
+    background-color: bisque;
+    font-size: 18px;
+}
+
+.education-table td {
+    font-size: 16px;
+}
