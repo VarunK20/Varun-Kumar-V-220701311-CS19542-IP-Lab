@@ -85,6 +85,12 @@ body, html{
     margin-bottom: 5px;
 }
 
+.head-body h1 {
+    font-style: oblique;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
 .body {
     margin-left: 50px;
     font-style: italic;
@@ -140,4 +146,60 @@ body, html{
 
 .education-table td {
     font-size: 16px;
+}
+
+span{
+    font-weight: bold;
+}
+
+@media(max-width: 600px) {
+    .container{
+        display: inline-flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .head-body-1 {
+        height: auto;
+        width: 100%;
+        padding: 30px 30px 10px 10px;
+    }
+
+    .head {
+        background-color: bisque;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .para {
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .para ul {
+        font-size: large;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .head-body h1 {
+        font-style: oblique;
+        font-size: 27px;
+        margin-bottom: 5px;
+    }
+    
+    .para h1{
+        font-style: italic;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    
+    .para h3 {
+        font-style: normal;
+        font-size: large;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
 }
