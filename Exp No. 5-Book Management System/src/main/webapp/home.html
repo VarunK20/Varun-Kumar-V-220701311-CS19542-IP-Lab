@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Book Management System</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="book.js"></script>
+</head>
+<body class="container-fluid card" style="width:40rem;">
+	<h2 class="bg-info text-white text-center">Book Registration</h2>
+	<form action="Books" method="post">
+		<table class="table table-hover" id="varun">
+			<tr>
+				<td><div id="r1"></div></td>
+			 	<td>Book ID</td>
+			 	<td><input type="text" name="bookid"></td>
+			</tr>
+			<tr>
+				<td><div id="r2"></div></td>
+			 	<td>Book Name</td>
+			 	<td><input type="text" name="bookName"></td>
+			</tr>
+			<tr>
+				<td><div id="r3"></div></td>
+			 	<td>Book Edition</td>
+			 	<td><input type="text" name="bookEdition"></td>
+			</tr>
+			<tr>
+				<td><div id="r4"></div></td>
+			 	<td>Book Price</td>
+			 	<td><input type="text" name="bookPrice"></td>
+			</tr>
+			<tr>
+			 	<td><input type="submit" value="Register"></td>
+			 	<td><input type="reset" value="Cancel"></td>
+			</tr>
+			<tr>
+				<td>
+					<a href="Booklist">View Books</a>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
