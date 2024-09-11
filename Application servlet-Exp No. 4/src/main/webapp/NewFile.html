@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Registration form</title>
+<link href="style.css" rel="stylesheet">
+<script src="index.js"></script>
+</head>
+<body>
+	<div class="head1">
+	    <form class="head" id="varun" onsubmit="return validation()" method="get" action="Formstud">
+	        <div id="r1" style="font-size: 9px; font-style: normal; color: red; padding-bottom: 0px; padding-top: 2px;"></div>
+	        <label for="regnumber">Registration Number:</label>
+	        <input type="text" id="regnumber" name="regnumber" />
+	
+	        <div id="r2" style="font-size: 9px; font-style: normal; color: red; padding-bottom: 0px; padding-top: 2px;"></div>
+	        <label for="name">Name:</label>
+	        <input type="text" id="name" name="username" />
+	
+	        <div id="r3" style="font-size: 9px; font-style: normal; color: red; padding-bottom: 0px; padding-top: 2px;"></div>
+	        <label for="year">Current Year:</label>
+	        <input type="text" id="year" name="year" />
+	
+	        <div id="r4" style="font-size: 9px; font-style: normal; color: red; padding-bottom: 0px; padding-top: 2px;"></div>
+	        <label for="sem">Semester:</label>
+	        <input type="text" id="sem" name="sem" />
+	
+	        <!-- <div id="r5" style="font-size: 7px; font-style: normal; color: red; padding-bottom: 0px;"></div> -->
+	        <label for="acdyear">Academic Year:</label>
+	        <select id="acdyear" name="acdyear">
+	            <option>2021</option>
+	            <option>2022</option>
+	            <option>2023</option>
+	            <option>2024</option>
+	        </select>
+	
+	        <div id="r6" style="font-size: 9px; font-style: normal; color: red; padding-bottom: 0px; padding-top: 2px;"></div>
+	        <label for="scode">Subject Code:</label>
+	        <input type="text" id="scode" name="scode" />
+	
+	        <div id="r7" style="font-size: 9px; font-style: normal; color: red; padding-bottom: 0px; padding-top: 2px;"></div>
+	        <label for="sname">Subject Name:</label>
+	        <input type="text" id="sname" name="sname" />
+	
+	        <div id="r8" style="font-size: 9px; font-style: normal; color: red; padding-bottom: 0px; padding-top: 2px;"></div>
+	        <label for="age">Date of Birth:</label>
+	        <input type="date" id="age" name="age" />
+	
+	        <!-- <div id="r9" style="font-size: 7px; font-style: normal; color: red; padding-bottom: 0px;"></div> -->
+	        <label for="gender">Gender:</label>
+	        <select name = "gen">
+	            <option>Male</option>
+	            <option>Female</option>
+	        </select>
+	        <!-- <label for="male" name="male">male</label>
+	        <input type="radio" id="male" name="gender" value="male" />
+	        <input type="radio" id="female" name="gender" /> -->
+	
+	        <input type="submit" id="submit" value="SUBMIT" >
+	    </form>
+    </div>
+</body>
+</html>
